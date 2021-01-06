@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Evan Mitchell | Portfolio</title>
+    <meta
+      name="description"
+      content="particles.js is a lightweight JavaScript library for creating particles."
+    />
+    <meta name="author" content="Vincent Garreau" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link rel="stylesheet" media="screen" href="css/style.css" />
+    <link rel="stylesheet" media="screen" href="css/hover.css" />
+  </head>
+  <body>
+    <div id="loader">
+      <svg
+        width="274"
+        height="275"
+        viewBox="0 0 274 275"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g>
+          <path
+            id="left-half"
+            d="M137.5 265C102.624 265 69.1765 251.146 44.5155 226.485C19.8544 201.824 6 168.376 5.99999 133.5C5.99999 98.624 19.8544 65.1765 44.5154 40.5155C69.1765 15.8544 102.624 2.00001 137.5 2.00001"
+            stroke="#ba0c2f"
+          />
+        </g>
+        <g>
+          <path
+            id="right-half"
+            d="M137 2C171.876 2 205.324 15.8544 229.985 40.5155C254.646 65.1765 268.5 98.624 268.5 133.5C268.5 168.376 254.646 201.824 229.985 226.485C205.324 251.146 171.876 265 137 265"
+            stroke="#ba0c2f"
+          />
+        </g>
+      </svg>
+    </div>
+
+    <!-- particles.js container -->
+    <div id="particles-js" class="home">
+      <nav>
+        <ul>
+          <li><a href="#particles-js">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="welcomeText">
+        <h1>Evan Mitchell</h1>
+        <h3>Student, Developer</h3>
+      </div>
+      <div class="mouse">
+        <span></span>
+      </div>
+      <div class="socials">
+        <div class="socialsContainer">
+          <ul>
+            <a href="https://www.linkedin.com/in/evanmitchell2022/"
+              ><img src="./img/linkedin.svg" alt="linkedIn" class="linkedin"
+            /></a>
+            <a href="https://github.com/etmitchell2022"
+              ><img src="./img/github.svg" alt="github" class="github"
+            /></a>
+            <a href="google.com"
+              ><img src="./img/cv.svg" alt="cv" class="cv"
+            /></a>
+            <a href="google.com"
+              ><img src="./img/mail.svg" alt="mail" class="mail"
+            /></a>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <section class="aboutContainer" id="about">
+      <h1 class="about-header">About</h1>
+      <div class="aboutContent">
+        <div class="aboutText">
+          <p>
+            I am a 20-year-old student at Ball State University currently
+            studying computer science. I will graduate in December 2021 and I
+            plan to become a software engineer. I have had a passion for
+            technology for years and I am excited to get started in the
+            industry.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="projectsContainer mySections" id="projects">
+      <h1 class="projects-header">Projects</h1>
+      <div class="cardContainer">
+        <div class="card">
+          <div class="card-content">
+            <img src="./img/regalia-img.PNG" alt="Regalia" />
+            <h2>Regalia Share</h2>
+            <p>
+              For my senior capstone, my group and I are creating a platform for
+              Ball State employees to easily list and reserve regalia for
+              graduation and other campus events.
+            </p>
+            <a href="https://github.com/etmitchell2022/regalia-loan-app-code" target="_blank" ><button>View Project</button></a>
+          </div>
+        </div>
+        <div class="card"></div>
+        <div class="card"></div>
+      </div>
+    </section>
+    <section class="contactContainer mySections" id="contact">
+      <h1 class="section-header">Contact</h1>
+      <div class="contactContent"></div>
+    </section>
+
+    <!-- scripts -->
+    <script src="../particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/animations.js"></script>
+  </body>
+</html>
