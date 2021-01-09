@@ -13,7 +13,12 @@
       content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
     <link rel="stylesheet" media="screen" href="css/style.css" />
-    <link rel="stylesheet" media="screen" href="css/hover.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <div id="loader">
@@ -61,18 +66,28 @@
       <div class="socials">
         <div class="socialsContainer">
           <ul>
-            <a href="https://www.linkedin.com/in/evanmitchell2022/"
-              ><img src="./img/linkedin.svg" alt="linkedIn" class="linkedin"
-            /></a>
-            <a href="https://github.com/etmitchell2022"
-              ><img src="./img/github.svg" alt="github" class="github"
-            /></a>
-            <a href="google.com"
-              ><img src="./img/cv.svg" alt="cv" class="cv"
-            /></a>
-            <a href="google.com"
-              ><img src="./img/mail.svg" alt="mail" class="mail"
-            /></a>
+            <div class="social-icon">
+              <a
+                href="https://www.linkedin.com/in/evanmitchell2022/"
+                target="_blank"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+            <div class="social-icon">
+              <a href="https://github.com/etmitchell2022" target="_blank"
+                ><i class="fab fa-github-square"></i
+              ></a>
+            </div>
+            <div class="social-icon">
+              <a href="./img/Evan_Mitchell_Resume Fall 2020.pdf" target="_blank"
+                ><i class="far fa-file"></i
+              ></a>
+            </div>
+            <div class="social-icon">
+              <a href="mailto:etmitchell@bsu.edu" target="_blank"
+                ><i class="far fa-envelope"></i
+              ></a>
+            </div>
           </ul>
         </div>
       </div>
@@ -103,10 +118,29 @@
               Ball State employees to easily list and reserve regalia for
               graduation and other campus events.
             </p>
-            <a href="https://github.com/etmitchell2022/regalia-loan-app-code" target="_blank" ><button>View Project</button></a>
+            <a
+              href="https://github.com/etmitchell2022/regalia-loan-app-code"
+              target="_blank"
+              ><button>View Project</button></a
+            >
           </div>
         </div>
-        <div class="card"></div>
+        <div class="card">
+          <div class="card-content">
+            <img src="./img/soccerCards.png" alt="soccerCards" />
+            <h2>Soccer Cards</h2>
+            <p>
+              This app was created with React and gives a list of soccer clubs
+              in the English Premier League. The user is able to search for any 
+              team and the cards are actively filtered on each key press.
+            </p>
+            <a
+              href="https://github.com/etmitchell2022/regalia-loan-app-code"
+              target="_blank"
+              ><button>View Project</button></a
+            >
+          </div>
+        </div>
         <div class="card"></div>
       </div>
     </section>
@@ -114,6 +148,9 @@
       <h1 class="section-header">Contact</h1>
       <div class="contactContent"></div>
     </section>
+    <footer>
+      <h2>&copy Evan Mitchell 2021</h2>
+    </footer>
 
     <!-- scripts -->
     <script src="../particles.js"></script>
